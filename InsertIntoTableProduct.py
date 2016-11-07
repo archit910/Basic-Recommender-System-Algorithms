@@ -1,0 +1,31 @@
+import sqlite3
+
+conn = sqlite3.connect('Products.db')
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (1 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (2 , 'Mango' ,'tree+fruits+summers+Gujrat+tree')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (3 , 'Neem' ,'medical+herbal+ayurved+green+plants+tree+Andhra')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (4 , 'Coconut' ,'kerala+southindia+dish+chutney+plants')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (5 , 'Banyan' ,'largest+big+Madhya+ficus+tree+anceint')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (6 , 'Rose' ,'valentine+love+flower+rose')")
+conn.execute("INSERT INTO PRODUCT (ID,NAME,TAGS)  VALUES (7 , 'Ammonia' ,'medical+fertilizers')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (8 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (9 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (10 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (11 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (12 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (13 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (14 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (15 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (16 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (17 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (18 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (19 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (20 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (21 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (22 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (23 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+# conn.execute("INSERT INTO USERS (ID,NAME,TAGS)  VALUES (24 , 'Tulsi' ,'medical+herbal+ayurved+green+plants')")
+conn.commit()
+print "Products Inserted!"
+
+
